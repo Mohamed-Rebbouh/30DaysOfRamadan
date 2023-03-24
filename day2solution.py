@@ -5,7 +5,7 @@ def min_players_shot(N,He, KKK):
     # Sort the players by height
     H.sort()
     # Check if Ali is already visible
-    if  int(H[-1])< KKK:
+    if  H[-1]< KKK:
         return 0
     # Find the first player who blocks Ali's line of sight
     max_height_seen = 0
